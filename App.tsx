@@ -61,7 +61,7 @@ export default function App() {
   const [descriptionIcon, setDescriptionIcon] = useState<any>(require('./pics/sun.png'));
   const [currentTime, setCurrentTime] = useState<string>('');
   const [language, setLanguage] = useState<'en' | 'sw'>('en');
-  const API_KEY = "b8379a06617b6595ee60f347295ac025";
+  const API_KEY = "secretKey";
 
 
  const translateDescription = (desc: string, lang: 'en' | 'sw') => {
